@@ -4,10 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{27B28DB9-9B2B-435B-9032-B382A254EAC0}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductMicroservice", "ProductMicroservice\ProductMicroservice.csproj", "{41C19DEB-A3C6-4B9B-A91F-1D8F82B599F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductMicroservice", "ProductMicroservice\ProductMicroservice.csproj", "{41C19DEB-A3C6-4B9B-A91F-1D8F82B599F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMicroservice", "UserMicroservice\UserMicroservice.csproj", "{A770BF37-9495-47A6-BD2D-91EE7ACFDE50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserMicroservice", "UserMicroservice\UserMicroservice.csproj", "{A770BF37-9495-47A6-BD2D-91EE7ACFDE50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
