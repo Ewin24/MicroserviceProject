@@ -18,7 +18,6 @@ namespace ProductMicroservice.Controllers
         {
             var productList = productService.GetProductList();
             return productList;
-
         }
         [HttpGet("{id}")]
         public Product GetProductById(int id)
